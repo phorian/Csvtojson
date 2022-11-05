@@ -1,4 +1,4 @@
-const crypto = require('crypto')
+/*const crypto = require('crypto')
 const fs = require('fs')
 
 const data = fs.readFileSync("./Output.json");
@@ -8,4 +8,4 @@ const fhex = hash.update(data).digest('hex')
 
 console.log(fhex)
 
-module.exports = fhex
+*/

@@ -1,7 +1,7 @@
 {
   "name": "hngstage2",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Create docs folder in root directory\r 2. run \"py script.py\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,16 @@
   "license": "ISC",
   "dependencies": {
     "crypto": "^1.0.1",
-    "fetch": "^1.1.0"
-  }
+    "fetch": "^1.1.0",
+    "python": "^0.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phorian/Csvtojson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phorian/Csvtojson/issues"
+  },
+  "homepage": "https://github.com/phorian/Csvtojson#readme"
 }
