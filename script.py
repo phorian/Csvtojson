@@ -25,7 +25,7 @@ for x in data:
 
     print("Creating new object...")
     new_x = x
-    serial = new_x["Series Number"]
+    serial = new_x["Filename"]
 
     print("Attempting file creation with new data...")
     try:
