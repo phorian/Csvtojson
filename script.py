@@ -29,7 +29,7 @@ for x in data:
 
     print("Attempting file creation with new data...")
     try:
-        with open("docs/{}.json".format(serial), "w") as f:
+        with open("docs/{}.output.csv".format(serial), "w") as f:
             f.write(json.dumps(new_x))
     except FileNotFoundError:
         print("The 'docs' directory does not exist")
